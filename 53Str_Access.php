@@ -6,4 +6,5 @@ echo "4th Latter in $str[3] <br>";
 
 echo "Number Of letters " . strlen($str) . "<br>";
 echo "last Latter in $str[-1] <br>";
-echo "last Latter in {$str [- 1]} <br>";
+echo "last Latter in {$str[strlen($str) - 1]} <br>";
+echo "last Latter in {$str[-1]} <br>";
