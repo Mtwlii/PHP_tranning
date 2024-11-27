@@ -1,24 +1,21 @@
 <?php
 
 /*
+    Cookies
 
-  File System Functions
-  - Fopen(FileName[Required], Mode[Required], IncludePath[Optional], Context[Optional])
+    - Examples
+    --- Popup
+    --- Custom Settings
+    --- Remember Me => Login
 
-  --- Mode
+    - setcookie(Name[Required], Value, Expire, Path, Domain, Secure, HTTP_Only);
+    --- Name
+    --- Value
+    --- Expire
+    --- Path
+    --- Domain
+    --- Secure
+    --- HTTP_Only
+  */
 
-  --- [a] For Write => Pointer At The End + Create If Not Exists
-  --- [a+] For Read & Write => Pointer At The End + Create If Not Exists
-  --- [x] Create + Open For Write => Pointer At The Beginning
-  --- [x+] Create + Open For Read & Write => Pointer At The Beginning
-
-  - fwrite(File[Required], String[Required], Length[Optional])
-  --- Write To An Open File
-  --- Length => Maximum Number Of Bytes To Write
-
-*/
-
-
-
-
-
+setcookie("style", "dark", time() + 60 * 60 * 24 * 30);
